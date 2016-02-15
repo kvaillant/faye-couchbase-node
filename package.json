@@ -1,0 +1,32 @@
+{
+  "name": "faye-couchbase",
+  "version": "0.0.1",
+  "description": "Add couchbase support for node-faye (based on faye-redid-node)",
+  "main": "lib/faye-couchbase.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kvaillant/faye-couchbase-node"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {
+    "couchbase": "^2.1.2"
+  },
+  "keywords": [
+    "faye",
+    "couchbase",
+    "faye-node",
+    "faye-couchbase",
+    "faye-couchbase-node"
+  ],
+  "author": "Karl Vaillant <vaillant.karl.971@gmail.com> (http://karlvaillant.fr/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvaillant/faye-couchbase-node/issues"
+  },
+  "homepage": "https://github.com/kvaillant/faye-couchbase-node"
+}

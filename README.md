@@ -26,8 +26,6 @@ var bayeux = new faye.NodeAdapter({
     cluster:   'couchbase://cb.example.com',
     password:   'default',
     bucket:   'default',
-    server_username:   'user',
-    server_password:   'password',
     namespace:   '',
     // more options
   }
@@ -42,8 +40,6 @@ The full list of settings is as follows.
 * <b>`cluster`</b> - Url of the couchbase instance + port
 * <b>`password`</b> - bucket password
 * <b>`bucket`</b> - bucket name, default is `default`
-* <b>`server_username`</b> - Couchbase server username
-* <b>`server_password`</b> - Couchbase server password
 * <b>`namespace`</b> - prefix applied to all keys, default is `''`
 
 
