@@ -1,11 +1,12 @@
 {
   "name": "faye-couchbase",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add couchbase support for node-faye (based on faye-redid-node)",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": ""
   },
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/kvaillant/faye-couchbase-node"
