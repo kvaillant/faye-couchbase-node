@@ -2,7 +2,7 @@
   "name": "faye-couchbase",
   "version": "0.0.2",
   "description": "Add couchbase support for node-faye (based on faye-redid-node)",
-  "main": "lib/faye-couchbase.js",
+  "main": "index.js",
   "scripts": {
     "test": ""
   },
