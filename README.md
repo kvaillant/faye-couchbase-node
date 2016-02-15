@@ -41,6 +41,7 @@ The full list of settings is as follows.
 * <b>`password`</b> - bucket password
 * <b>`bucket`</b> - bucket name, default is `default`
 * <b>`namespace`</b> - prefix applied to all keys, default is `''`
+* <b>`gc`</b> - Document expirency in db `360` > 1hour
 
 
 ## License
