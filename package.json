@@ -15,7 +15,8 @@
     "node": ">=0.4.0"
   },
   "dependencies": {
-    "couchbase": "^2.1.2"
+    "couchbase": "^2.1.2",
+    "neo-async": "^1.7.2"
   },
   "keywords": [
     "faye",
@@ -29,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/kvaillant/faye-couchbase-node/issues"
   },
-  "homepage": "https://github.com/kvaillant/faye-couchbase-node"
+  "homepage": "https://github.com/kvaillant/faye-couchbase-node",
+  "devDependencies": {
+    "faye": "^1.1.2"
+  }
 }
